@@ -1,0 +1,21 @@
+
+name: hello_world_flutter
+description: A simple Flutter project to display Hello World, background image, icon and app name.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background.jpg
